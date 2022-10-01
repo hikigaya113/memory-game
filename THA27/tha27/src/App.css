@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+*{margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+h1{
+  text-align: center;
+  margin: 15px;
+}
+.t1{
+  width: 33.33%;
+  display: inline-block;
+  border:15px solid transparent;
+}
+.t1 .bansal{
+  width: 75%;
+  height: 350px;
+  border: 0.5px solid black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center ;
+  box-shadow: 1px 2px 2px 2px rgba(8, 7, 7, 0.623);
+}
+.t1 .bansal:hover{
+  width: 80%;
+  height: 370px;
+  cursor: pointer;
+}
+.meme img{
+  width: auto;
+  height: 330px;
+  border: 1px solid black;
+  box-shadow: 1px 2px 2px 2px rgba(8, 7, 7, 0.623);
+}
+.meme img:hover{
+  height:360px;
+  cursor:pointer;
+}
+.meme{
+  text-align: center;
+  
+}
+.meme input{
+  margin: 10px;
+  padding: 5px;
+}
+.a1 button{
+  padding: 5px;
+  margin: 10px;
+}
