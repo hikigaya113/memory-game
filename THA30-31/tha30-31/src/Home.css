@@ -1,0 +1,35 @@
+.home {
+    margin-top: 150px;
+    letter-spacing: 1px;
+    padding: 0;
+    margin-right: 0;
+}
+
+.home-intro {
+    text-align: left;
+    margin: 0 150px;
+    font-size: 1rem;
+}
+
+.design-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 150px;
+    background-color: #F3F1F5;
+    font-size: 5px;
+}
+
+.bar {
+    display: flex;
+    text-align: left;
+    padding: 10px;
+    font-size: 2px;
+}
+
+.same {
+    border: 1px solid lightgray;
+    height: 700px;
+    margin: 40px 150px;
+    text-align: left;
+    padding: 20px;
+}
