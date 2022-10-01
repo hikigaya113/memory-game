@@ -1,0 +1,111 @@
+body{
+    background-image: url("https://i.pinimg.com/originals/07/af/c5/07afc5b4baeb76aa1232fb2533d5d8f8.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h2{
+    margin-left: 200px;
+    text-shadow: 2px 2px #0a0121, 2px 3px red;
+    font-size: 40px;
+    color: cornflowerblue;
+}
+.main{
+    
+    margin-left: 30px;
+    margin-top: 10px;
+    background-color: #0a0121;
+    border: 1px solid rgb(1, 37, 58);
+    border-radius: 7px;
+    width:600px;
+    height: 400px;
+    background: rgba( 21, 17, 17, 0.55 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 0.0px );
+-webkit-backdrop-filter: blur( 0.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.st{
+    display: block;
+
+}
+.start{
+    background-color: cornflowerblue;
+    color: white;
+    width: 100px;
+    height: 70px;
+    border-radius: 17px;
+    border: 4px rgb(2, 1, 70);
+    font-size: 15px;
+    margin-left: 250px;
+    margin-top: 150px;
+    position: fixed;
+    box-shadow: 0 0 40px 40px blue inset, 0 0 0 0 blue;
+  transition: all 200ms ease-in-out;
+}
+.q{
+    display: none;
+    color: white;
+    position: fixed;
+    
+    margin-left: 25px;
+    
+    font-size: 20px;
+}
+.ques{
+    padding-top: 30px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.in{
+    height: 35px;
+    width: 400px;
+    border-radius: 10px;
+    padding-top: -40px;
+    position: fixed;
+    font-size: 20px;
+    background-color: #0a0121 ;
+    border: 10px cornflowerblue;
+    color:white;
+   box-shadow: 0 0 40px 40px blue inset, 0 0 0 0 blue;
+  transition: all 200ms ease-in-out;
+}
+.in:hover{
+    box-shadow: 0 0 10px 0 blue inset, 0 0 10px 4px blue;.
+}
+.start:hover{
+    box-shadow: 0 0 10px 0 blue inset, 0 0 10px 4px blue;
+    border-radius: 10%;
+}
+.score{
+    display:none;
+    
+    color: white;
+   
+    height: 70px;
+    border-radius: 17px;
+    font-size: 15px;
+    margin-left: 240px;
+    margin-top: 70px;
+    position: fixed;
+}
+.play{
+    background-color: rgb(2, 1, 70);
+    color: white;
+    width: 100px;
+    height: 70px;
+    border-radius: 30%;
+    border:10px cornflowerblue;
+    font-size: 15px;
+   margin-left:60px;
+    position: fixed;
+    box-shadow: 0 0 40px 40px blue inset, 0 0 0 0 blue;
+  transition: all 150ms ease-in-out;
+}
+.play:hover{
+    box-shadow: 0 0 10px 0 blue inset, 0 0 10px 4px blue;
+    border-radius: 50%;
+    font-size:20px;
+    font-style: italic;
+}

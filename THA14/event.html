@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            display:flex;
+            text-align: center;
+            align-items: center;
+            background-color: black;
+        }
+       div{
+           padding:10px;
+           margin:auto;
+           margin-top:200px;
+           background: rgba( 102, 76, 76, 0.25 );
+           box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+       }
+    </style>
+    <title>THA 14</title>
+</head>
+<body>
+    <div>
+    <h1 onmousedown="pratham()" onmouseup="garg()" style="color: blue;font-size: 50px;">click here</h1>
+    </div>
+<script>
+   function pratham(){
+      document.querySelector('h1').style.color='yellow';
+   }
+   function garg(){
+      document.querySelector('h1').style.color='blue';
+   }
+
+</script>
+</body>
+</html>

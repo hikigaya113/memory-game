@@ -1,0 +1,75 @@
+body{
+    background-color: grey;
+  background-image: url("https://wallpapercave.com/wp/wp1890589.jpg");
+  background-size: cover;
+}
+div{
+    text-align: center;
+    margin:auto;
+}
+.main{
+    margin-top: 50px;
+    margin-right: 750px;
+}
+.container{
+    text-align: center;
+    margin:auto;
+    display: inline-block;
+    border:3px solid  black ;
+    border-radius:50%;
+    padding:4px;
+   background: rgba(39, 28, 28, 0.45 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 11.5px );
+-webkit-backdrop-filter: blur( 11.5px );
+border-radius: 10px;
+border: 1px  solid  rgba( 202, 202, 202, 0.75 );
+    margin-bottom: 90px;
+    height: 400px;
+    width: 280px;
+    box-shadow: 0 4px 8px 0 rgba(5, 5, 5, 0.644), 0 6px 20px 0 rgba(20, 19, 19, 0.678);
+}
+.num{
+    margin:auto;
+}
+button{
+    font-size:21px;
+    border-radius: 20px;
+    width:55px;
+    height: 55px;
+    background: black;
+    color: white;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.459), 0 6px 20px 0 rgba(0, 0, 0, 0.37);
+   margin-top: 2px;
+   margin-inline: 2px;
+   opacity: 0.950;
+}
+button:hover{
+    font-size: 25px;
+    background: rgba( 123, 110, 110, 0.75 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 20.0px );
+-webkit-backdrop-filter: blur( 20.0px );
+border-radius: 20px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+input{
+    height: 50px;
+    width: 230px;
+    border-radius: 7px;
+    padding-top: 4px;
+    margin-bottom: 7px;
+    font-size: 30px;
+    margin-top: 9px;
+    border: 3px solid grey;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.253), 0 6px 20px 0 rgba(0, 0, 0, 0.26);
+    background: rgba( 217, 202, 202, 0.75 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 20.0px );
+-webkit-backdrop-filter: blur( 20.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.h2{
+    color: grey;
+}

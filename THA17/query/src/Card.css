@@ -1,0 +1,15 @@
+.card{
+    border: 2px solid black;
+    height:30000px;
+    width:300px;
+    margin:40px;
+    background-color: darkgoldenrod;
+    box-shadow: 0px 0px 5px 5px black;
+    text-align: left;
+    position: relative;
+    padding: 5px;
+}
+h2{
+    position: absolute;
+    margin:10px;
+}

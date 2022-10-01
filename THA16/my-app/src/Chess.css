@@ -1,0 +1,25 @@
+.white{
+    background-color: white;
+    height: 60px;
+    width: 60px;
+    margin: 0%;
+}
+.black{
+    background-color: black;
+    height: 60px;
+    width: 60px;
+    margin: 0%;
+}
+.row1,.row2{
+    display: flex;
+    margin:0%;
+}
+.board{
+    width:479px;
+    height: 479px;
+    border: 2px grey;
+    padding: none;
+    margin-left: 700px;
+    margin-top: -300px;
+    box-shadow: 0px 0px 20px 5px rgb(32,31,31,0.5),0px 0px 6px 2px grey;
+}
